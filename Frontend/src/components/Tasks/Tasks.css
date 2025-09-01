@@ -1,0 +1,73 @@
+.task-list {
+  padding: 20px;
+}
+
+.task-list h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.task-filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-btn {
+  padding: 8px 15px;
+  background: #f0f0f0;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.filter-btn.active {
+  background: #4a90e2;
+  color: white;
+}
+
+.add-task-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #4a90e2;
+  color: white;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, background 0.3s;
+}
+
+.add-task-btn:hover {
+  transform: scale(1.1);
+  background: #357abd;
+}
+
+.task-stats {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat-value {
+  font-size: 24px;
+  font-weight: bold;
+  color: #4a90e2;
+}
+
+.stat-label {
+  color: #666;
+  font-size: 14px;
+}
