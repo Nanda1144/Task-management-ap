@@ -33,12 +33,21 @@ A full-stack task management application with user authentication and CRUD opera
 
 5. Start server: `npm start`
 
+install dependencies 
+7. cd backend
+npm install express mongoose bcryptjs jsonwebtoken cors dotenv
+npm install --save-dev nodemon
+
 ### Frontend
 1. Navigate to frontend directory
 2. Install dependencies: `npm install`
 3. Create `.env` file with:
 
 4. 4. Start app: `npm start`
+  dependencies 
+   5. cd frontend
+npx create-react-app .
+npm install axios react-router-dom react-icons
 
 ## API Endpoints
 - `POST /api/auth/signup` - User registration
