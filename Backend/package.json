@@ -1,0 +1,24 @@
+{
+  "name": "task-manager-backend",
+  "version": "1.0.0",
+  "description": "Task Manager backend with Express, MongoDB, and Firebase JWT authentication",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "express",
+    "mongodb",
+    "firebase",
+    "taskmanager"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.10.1",
+    "mongoose": "^8.5.0"
+  }
+}
